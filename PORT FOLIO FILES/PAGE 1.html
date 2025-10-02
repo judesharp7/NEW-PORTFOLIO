@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Futuristic Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="navbar">
+    <h1><img src="C:\Users\UCHENNA\Desktop\cdn\n.jpg" alt="logo" style="height: 100px;width:100px;border-radius: 33px;"><br>JAY'SERVICES</h1>
+    <nav>
+      <ul id="menu" hidden>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+
+    <div class="content">
+      <div class="left">
+        <h1><span>Fullstack</span><br/>Developer</h1>
+        <p>
+          <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Jay, a passionate programmer and computer engineer with expertise in building efficient, scalable, and innovative solutions. I specialize in web development, software engineering, and embedded systems.</p>
+          <p>AT JAY'S SERVICES We offer a wide range of sevices  such as graphic design ,project-management,and web design .We are a competent team of graphic designers,web devs ,project managers and social media intern who bring quality at an affordable price</p>
+        </div>
+    </section>
+        </p>
+      </div>
+
+      <div class="right">
+        <div class="status-box">
+          <p>I AM Available</p>
+          <div class="buttons">
+            <button onclick="location.href='PAGE 3.html'"  style="background-color: white;
+  color: black ;">hire me</button>
+            <button onclick="location.href='PAGE 2.html'"  style="  background-color: #00ffff;
+  color: black;"> CV</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<style>
+
+
+body {
+  background: black;
+  color: #00ffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar{
+  width: 90%;
+  max-width: 1200px;
+  border: 2px solid #00ffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #00ffff;
+  background-color: #0d0d0d;
+  position: relative;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px; font-weight: bolder;
+}
+
+nav a {
+  color: #00ffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.left h2 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.left h1 span {
+  color: #00ffff;
+}
+
+.left p {
+  color: #ccc;
+  margin-top: 10px;
+  max-width: 300px;
+}
+
+.right .status-box {
+  border: 2px solid #00ffff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00ffff;
+}
+
+.status-box p {
+    margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button.hire {
+  background-color: white;
+  color: black;
+}
+
+button.cv {
+  background-color: #00ffff;
+  color: black;
+}</style>
+<script>
+document.querySelector('.hire').onclick = () => alert("Thanks for your interest!");
+document.querySelector('.cv').onclick = () => alert("Redirecting to CV...");
+</script>
+</body>
+</html>
